@@ -4,14 +4,14 @@ defmodule ElixirChat.Constants do
       List of all commands:
         /help                        -  Displays this list
         /help <comamnd>              -  Displays more helpful information about that command
-        /join <node1> <node2> ...    -  Join an existing Poker node network
-        /list                        -  List the names of all the players
+        /join <node1> <node2> ...    -  Join an existing chat node network
+        /list                        -  List the names of all users
   """
 
   def join, do: """
-      Specify the node name of another player on your network
+      Specify the node name of another user on your network
       in the form of "name@iporhost.com". For example, if starting
-      two Poker games on the same computer in different terminals,
+      two chats on the same computer in different terminals,
       simply type the following:
 
       /join foo@127.0.0.1
